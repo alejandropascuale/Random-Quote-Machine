@@ -6,10 +6,11 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <div id="wrapper">
-      <div id="quote-box">
-        <div id="text">
-          <%= firstQuote.quote %> 
+    <div id="wrapper" class="container-fluid card">
+      <div id="quote-box" class="card-body">
+        <div id="text" class="card-title">
+          <i class="fas fa-quote-left"></i>
+          <h2><%= firstQuote.quote %></h2>
         </div>
         <div id="author"></div>
         <div id="new-quote"></div>
